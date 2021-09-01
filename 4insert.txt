@@ -1,0 +1,17 @@
+test=# INSERT INTO person (
+test(# first_name,
+test(# last_name,
+test(# gender,
+test(# date_of_birth,
+test(# email)
+test-# VALUES ('hi', 'hello', 'male', DATE '10-10-1998', 'hi@gmail.com');
+INSERT 0 1
+
+
+
+output
+test=# SELECT * FROM person;
+ id | first_name | last_name | gender | date_of_birth |    email
+----+------------+-----------+--------+---------------+--------------
+  1 | hi         | hello     | male   | 1998-10-10    | hi@gmail.com
+(1 row)
