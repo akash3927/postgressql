@@ -1,0 +1,10 @@
+        ^
+test=# SELECT * FROM person WHERE gender = 'male';
+ id | first_name | last_name | gender | date_of_birth |      email
+----+------------+-----------+--------+---------------+-----------------
+  1 | hi         | hello     | male   | 1998-10-10    | hi@gmail.com
+  2 | byers      | jonathan  | male   | 1998-09-09    | byers@gmail.com
+(2 rows)
+
+
+test=#

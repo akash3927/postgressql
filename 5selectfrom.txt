@@ -1,0 +1,15 @@
+test=# SELECT first_name FROM person;
+ first_name
+------------
+ hi
+(1 row)
+
+
+test=# SELECT first_name, last_name FROM person;
+ first_name | last_name
+------------+-----------
+ hi         | hello
+(1 row)
+
+
+test=#
